@@ -1,3 +1,6 @@
 datafile = open('data.txt', 'r', encoding= 'UTF-8')
-data = datafile.read()
-print(data)
+
+line = 'init'
+while line:
+    line = datafile.read()
+print(line)
